@@ -1,0 +1,38 @@
+.sidebar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100px; /* Adjust width for your sidebar */
+    height: 100%; /* Make sidebar full height */
+    display: flex;
+    flex-direction: column;
+    background-color: #000000;
+    padding-top: 10px; /* Add padding to push links below logo */
+  }
+  
+  .sidebar-logo {
+    width: 50%;
+    max-width: 150px; /* Adjust logo size */
+    align-self: center; /* Center logo horizontally */
+    margin-bottom: 20px;
+    margin-right: 10px; /* Add margin below logo */
+  }
+  
+  .sidebar-links {
+    display: flex;
+    flex-direction: column;
+    gap: 90px; /* Adjust gap between links */
+    padding: 0 20px; /* Add padding to the left and right */
+  }
+  
+  .sidebar-link {
+    text-decoration: none;
+    color: white;
+    font-size: 18px; /* Adjust font size */
+  }
+  
+  /* Optional: Add hover effect */
+  .sidebar-link:hover {
+    color: #ff9900; /* Change color on hover */
+  }
+  
